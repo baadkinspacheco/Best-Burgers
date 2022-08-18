@@ -2,7 +2,10 @@
 
 let burgerList;
 
-// Fetches json objects from url 
+/**
+ * Fetches json objects from url
+ * 
+ */ 
 async function getData() {
     try{
         const url = '/api/burgers/all';
