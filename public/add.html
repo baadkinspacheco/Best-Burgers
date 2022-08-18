@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/frm.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <img src="/img/burger-flat.png" alt="Burger image" width="80" heigth="80"> 
+        <h1 class="title">Burger Project</h1>
+        <div class="link-menu">
+            <a href="/login">Login</a></li>
+            <a href="/home">Home</a></li>
+            <a href="/add">Add</a></li>
+            <a href="/edit">Edit</a></li>
+            <a href="/remove">Remove</a></li>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Add Burger</h2>
+        <form autocomplete="off" class="frm-new-burger" id="frmNewBurger">
+            <div class="container-question">
+                <label><b>Name of Burger</b></label>
+                <input type="text" id="name" name="name" placeholder="Double-Double" pattern=".{2,}" title="Must contain a valid name" required>
+                <small class="err hidden" id="errName"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Restaurant</b></label><br>
+                <input type="text" id="restaurant" name="restaurant" placeholder="McDonalds" pattern=".{2,}" title="Must contain a valid name" required>
+                <small class="err hidden" id="errRest"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Website URL</b></label><br>
+                <input type="url" id="web" name="web" placeholder="http://McDonalds.com" pattern="https?://.+" title="Include http://" required>
+                <small class="err hidden" id="errWeb"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Description</b></label><br>
+                <input type="text" id="description" name="description" placeholder="Yummy" pattern=".{2,}" title="Must contain a valid description" required>
+                <small class="err hidden" id="errDescription"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Ingredients</b></label><br>
+                <input type="text" id="ingredients" name="ingredients" placeholder="2lbs beef" pattern=".{2,}" title="Must be longer than two characters" required>
+                <small class="err hidden" id="errIngredients"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Address</b></label><br>
+                <input type="text" id="address" name="address" placeholder="200 Burger Ave." pattern=".{6,}" title="Must be valid address" required>
+                <small class="err hidden" id="errAddress"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>City</b></label><br>
+                <input type="text" id="city" name="city" placeholder="Burger City" pattern=".{2,}" title="Must be a valid city" required>
+                <small class="err hidden" id="errCity"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>State</b></label><br>
+                <input type="text" id="state" name="state" placeholder="NM"  pattern=".{2}" title="Must be AZ" required>
+                <small class="err hidden" id="errState"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Postal Code</b></label><br>
+                <input type="text" id="postal" name="postal" placeholder="10000" pattern=".{5,}" title="Must be a valid postal address" required>
+                <small class="err hidden" id="errPostal"></small><br>
+            </div>
+            <div class="container-question">
+                <label><b>Country</b></label><br>
+                <input type="text" id="country" name="country" placeholder="United States" pattern=".{2,}" title="Must be a valid country" required>
+                <small class="err hidden" id="errCountry"></small><br>
+            </div>
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

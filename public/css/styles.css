@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+    background-color:rgb(255, 169, 58);
+    margin: 0px;
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-height: 100px;
+    margin: 0px;
+    overflow: auto;
+}
+
+@media (max-width: 40em) {
+    .header {
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        min-height: 280px;
+        margin: 0px;
+        overflow: auto;
+    }
+}
+
+.header img {
+    margin: 0px;
+    padding: 10px;
+    padding-right: 5px;
+    float: left;
+    position: relative;
+    left: 10px;
+}
+
+@media (max-width: 40em) {
+    .header img {
+        /* display: inline-block; */
+        margin: 0px;
+        /* padding: 10px; */
+        /* padding-right: 5px; */
+        float: left;
+        /* position: relative; 
+        left: 10px; */
+    }
+}
+
+.header h1 {
+    border: 5px solid lightgreen;
+    color: rgb(43, 46, 46);
+    font-family: 'Koulen', cursive;
+    font-size: 45px;
+    float: left;
+    margin: 0px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+@media (max-width: 40em) {
+    .header h1 {
+        border: 5px solid lightgreen;
+        color: rgb(43, 46, 46);
+        /* display: inline-block; */
+        font-family: 'Koulen', cursive;
+        font-size: 35px;
+        /* float: left; */
+        margin: 0px;
+        margin-left: 20px;
+        padding: 5px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        top: 4px;
+        right: 5px;
+    }
+}
+
+.link-menu {
+    float: right;
+    margin: auto;
+    position: relative;
+    top: 59px;
+    right: 10px;
+}
+
+@media (max-width: 40em) {
+    .link-menu {
+        margin: auto;
+        /* position: relative;
+        top: 59px;
+        right: 85px; */
+    }
+}
+
+.link-menu a {
+    color: rgb(43, 46, 46);
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+.home-page-top {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 65%;
+}
+
+.burger-description-container {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+    width: 65%;
+}
+
+.selection select {
+    background-color: rgb(255, 146, 56);
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+}
+
+.removeButton {
+    background-color: rgb(255, 146, 56);
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.selection option {
+    color: rgb(77, 76, 76);
+    background-color: lavender;
+    border: 2px rgb(255, 146, 56);
+}
+
+.info {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 40em) {
+    .container {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        max-width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        overflow-wrap: break-word;
+    }
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.frm-new-burger {
+    padding: 30px 40px;
+    padding-right: 60px;
+}
+
+.frm-new-burger label {
+    display: inline-block;
+}
+
+.frm-new-burger input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 7px;
+    width: 100%;
+}
+
+.container-question.success input {
+    border: 2px solid #5cef68;
+}
+
+.container-question.error input {
+    border: 2px solid red;
+}
+
+.container-question {
+    font-family: inherit;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.edit-inner-container {
+    font-family: inherit;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.remove-inner-container {
+    font-family: inherit;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 17px;
+    text-align: center;
+    min-height: 230px;
+}
+
+.removeBurgerSuccessText {
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.frm-new-burger.container-question small {
+    bottom: 5px;
+    left: 5px;
+    margin-top: 40px;
+    position: absolute;
+    size: 40px;
+}
+
+.frm-new-burger button {
+    background-color: rgb(255, 146, 56);
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 107%;
+}
+
+.err {
+    color: red;
+}
+
+.frm-new-burger.err input {
+    border: 2px solid red;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 7px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+.login-register-container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 40em) { 
+    .login-register-container {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        max-width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        overflow-wrap: break-word;
+    }  
+}
+
+.login-frm-box img {
+    margin-top: 40px;
+}
+
+.login-frm-box {
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float: left;
+    width: 63%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.registerFrmBox img {
+    margin-top: 20px;
+}
+
+.registerFrmBox {
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    float: left;
+    width: 63%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.login-register-container input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 7px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.login-frm-box button {
+    margin-bottom: 20px;
+    margin: auto;
+    background-color: rgb(255, 146, 56);
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 64%;
+}
+
+.registerFrmBox button {
+    margin-bottom: 20px;
+    margin: auto;
+    background-color: rgb(255, 146, 56);
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 64%;
+}
+
+@media (max-width: 40em) {
+    .login-frm-box {
+        background-color: white;
+        width: 100%;
+        min-height: 200px;
+    }
+}
+
+.register-box {
+    background-color:#34c48c;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color:#ffffff;
+    float: left;
+    width: 37%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.register-box button {
+    margin-bottom: 20px;
+    margin: auto;
+    background-color: lightgray;
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 62%;
+}
+
+.login-box {
+    background-color:#34c48c;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color:#ffffff;
+    float: left;
+    width: 37%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.login-box button {
+    margin-bottom: 20px;
+    margin: auto;
+    background-color: lightgray;
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 62%;
+}
+
+@media (max-width: 40em) {
+    .register-box {
+        width: 100%;
+        min-height: 100px;
+    }
+}   
+
+.register-box h2 {
+    margin-top: 130px;
+}
+
+.login-box h2 {
+    margin-top: 130px;
+}
+
+.selectBurgerToRemove button {
+    background-color: rgb(255, 146, 56);
+    border: 2px rgb(255, 146, 56);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+}

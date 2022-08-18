@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login-reg-wallpaper {
+    height: 100%;
+    width: 100%;
+    background-image: url("/img/burger_wall.jpg"); 
+    /* background-color:rgb(255, 169, 58); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.lr-frm-box {
+    max-width: 400px;
+    min-height: 100px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+@media (max-width: 40em) {
+    .lr-frm-box {
+        width: 80%;
+        min-height: 400px;
+        position: relative;
+        margin: 6% auto;
+        background-color: white;
+        padding: 5px;
+        border-radius: 25px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+    }
+}
+
+.btn-box {
+    min-width: 250px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow:rgba(0, 0, 0, 0.3)
+}
