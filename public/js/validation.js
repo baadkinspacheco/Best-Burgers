@@ -13,7 +13,7 @@ const userValidation = data => {
 
 // If the username is invalid return false
 function validUsername(username) {
-     if (username.length < 6) {
+     if (username.length < 2) {
         return false;
     }
     if (username.length > 225) {
